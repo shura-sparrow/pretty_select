@@ -1,8 +1,10 @@
-# Custom Pretty Select CSS Style Plugin: jQuery + CSS
-### Initiate the plugin
-```javascript
+# Custom Select Box CSS Style Plugin: jQuery + CSS
+
 ## Getting started
 ### [See Basic Demo](http://codepen.io/shura-sparrow/pen/xZxboo)
+### Initiate the plugin
+```javascript
 $(document).ready(function(){
-	$(‘#someSelect’).prettySelect();
+	$('#someSelect').customSelect();
 });
+```
