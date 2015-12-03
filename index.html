@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pretty Select</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin,cyrillic" rel="stylesheet">
+        <style type="text/css">
+            body {
+                font-family: "Open Sans", sans-serif;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                font: inherit;
+                box-sizing: border-box;
+            }
+            .container {
+                width: 200px;
+                background: #f9d350;
+                padding: 20px;
+                margin: 20px
+            }
+        </style>
+        <link href="src/css/prettySelect.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <select class="pretty_select">
+                <option value="0">Zero</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="src/js/prettySelect.js"></script>
+        <script>
+            $('.pretty_select').prettySelect({
+        });
+        </script>
+    </body>
+</html>
